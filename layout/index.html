@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-topbar">Acompanhe as melhores promoções disponíveis aqui na Maeztra.</div>
+    <div class="header-middle">
+      <div class="header-middle-c container">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <div class="logo-image">
+          <a href="#!">
+            <img src="img/logo-maeztra-novo.png" alt="logo maeztra" title="Maeztra" width="110">
+          </a>
+        </div>
+        <a href="#!" class="search-mobile">
+          <img src="img/icon-search.svg" alt="pesquisa" height="24">
+        </a>
+        <div class="search-box">
+          <input
+            type="text"
+            name="pesquisa"
+            id="search-input"
+            placeholder="O Que Você Busca?"
+          >
+          <button class="button search-btn">Buscar</button>
+        </div>
+        <div class="hm-buttons">
+          <a href="#!" class="hm-button hmb-desk">
+            <img src="img/icon-profile.svg" alt="Minha conta" height="16">
+            <span class="hm-button-desc">Minha conta</span>
+          </a>
+          <a href="#!" class="hm-button hmb-desk">
+            <img src="img/icon-heart.svg" alt="Minha conta" height="16">
+            <span class="hm-button-desc">Minha conta</span>
+          </a>
+          <a href="#!" class="hm-button">
+            <img src="img/icon-bag.svg" alt="sacola de produtos" height="24">
+            <span class="hm-button-desc hmb-desk">Meu Carrinho</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <a href="#!" class="hb-link hb-news">
+        <img src="img/icon-dress.svg" alt="Novidades">
+        <span>Novidades</span>
+      </a>
+      <a href="#!" class="hb-link">Vestidos</a>
+      <a href="#!" class="hb-link">Roupas</a>
+      <a href="#!" class="hb-link">Sapatos</a>
+      <a href="#!" class="hb-link">Lingerie</a>
+      <a href="#!" class="hb-link">Acessórios</a>
+      <a href="#!" class="hb-link">OUTLET</a>
+    </div>
+  </header>
+  <section class="main-slider">
+    <div class="slider-item">
+      <div class="slider-content container">
+        <span class="slider-item-title">
+          Promoções de Outono
+        </span>
+        <span class="slider-item-text">
+          Confiras os melhores looks para combinar com você nesse Outono
+        </span>
+        <button class="button bold">Conferir</button>
+      </div>
+    </div>
+  </section>
+  <section class="info-section">
+    <h4 class="text-center">Por que comprar na Maeztra?</h3>
+    <div class="cards container">
+      <div class="info-card">
+        <img class="info-icon" src="img/icon-earth.png" alt="globo" width="32">
+        <div>
+          <p class="info-text-top bold">Produtos importados</p>
+          <p class="info-text-bottom">Produto de Alta Qualidade</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img class="info-icon" src="img/icon-garage.png" alt="estoque" width="32">
+        <div>
+          <p class="info-text-top bold">Estoque no Brazil</p>
+          <p class="info-text-bottom">Produtos mais perto de você!</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img class="info-icon" src="img/icon-return-box.png" alt="trocas" width="32">
+        <div>
+          <p class="info-text-top bold">Trocas Garantidas</p>
+          <p class="info-text-bottom">Trocas em até 48 horas, vejas as regras</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img class="info-icon" src="img/icon-price-tag.png" alt="desconto" width="32">
+        <div>
+          <p class="info-text-top bold">Ganhe 5% off</p>
+          <p class="info-text-bottom">Pagando à vista no Cartão</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <img class="info-icon" src="img/icon-truck.png" alt="frete grátis" width="32">
+        <div>
+          <p class="info-text-top bold">Frete Grátis</p>
+          <p class="info-text-bottom">Em compras acima de R$ 499,00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="brands-section">
+    <h3 class="section-header text-center">Marcas Parceiras</h3>
+    <div class="cards container">
+      <img class="brand-card" src="img/brands-1.png" alt="comma">
+      <img class="brand-card" src="img/brands-2.png" alt="melissa">
+      <img class="brand-card" src="img/brands-3.png" alt="forever 21">
+      <img class="brand-card" src="img/brands-4.png" alt="zara">
+      <img class="brand-card" src="img/brands-5.png" alt="ann taylor">
+    </div>
+  </section>
+  <section>
+    <h3 class="section-header text-center">As Mais Pedidas</h3>
+    <div class="shelf container">
+      <div class="product-card">
+        <img src="img/product-image-1.jpg" alt="Faux Suede Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-1"></div>
+            <div class="product-color bg-2"></div>
+            <div class="product-color bg-3"></div>
+            <div class="product-color bg-4"></div>
+          </div>
+          <p class="product-price">R$ 500,00</p>
+          <p class="product-name">Faux Suede Mini Skirt</p>
+          <p class="product-description">
+            A faux suede mini skirt featuring exposed button-front closures and panel seam
+            construction.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-image-2.jpg" alt="Ruched Rose Print Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-5"></div>
+            <div class="product-color bg-6"></div>
+            <div class="product-color bg-7"></div>
+            <div class="product-color bg-8"></div>
+          </div>
+          <p class="product-price">R$ 320,00</p>
+          <p class="product-name">Ruched Rose Print Mini Skirt</p>
+          <p class="product-description">
+            A satin mini skirt featuring an allover floral print, ruched side with self-tie
+            closure, concealed back zipper, and a flounce hem.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-image-1.jpg" alt="Faux Suede Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-1"></div>
+            <div class="product-color bg-2"></div>
+            <div class="product-color bg-3"></div>
+            <div class="product-color bg-4"></div>
+          </div>
+          <p class="product-price">R$ 500,00</p>
+          <p class="product-name">Faux Suede Mini Skirt</p>
+          <p class="product-description">
+            A faux suede mini skirt featuring exposed button-front closures and panel seam
+            construction.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-image-2.jpg" alt="Ruched Rose Print Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-5"></div>
+            <div class="product-color bg-6"></div>
+            <div class="product-color bg-7"></div>
+            <div class="product-color bg-8"></div>
+          </div>
+          <p class="product-price">R$ 320,00</p>
+          <p class="product-name">Ruched Rose Print Mini Skirt</p>
+          <p class="product-description">
+            A satin mini skirt featuring an allover floral print, ruched side with self-tie
+            closure, concealed back zipper, and a flounce hem.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-image-1.jpg" alt="Faux Suede Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-1"></div>
+            <div class="product-color bg-2"></div>
+            <div class="product-color bg-3"></div>
+            <div class="product-color bg-4"></div>
+          </div>
+          <p class="product-price">R$ 500,00</p>
+          <p class="product-name">Faux Suede Mini Skirt</p>
+          <p class="product-description">
+            A faux suede mini skirt featuring exposed button-front closures and panel seam
+            construction.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/product-image-2.jpg" alt="Ruched Rose Print Mini Skirt">
+        <div class="product-details">
+          <div class="product-colors">
+            <div class="product-color bg-5"></div>
+            <div class="product-color bg-6"></div>
+            <div class="product-color bg-7"></div>
+            <div class="product-color bg-8"></div>
+          </div>
+          <p class="product-price">R$ 320,00</p>
+          <p class="product-name">Ruched Rose Print Mini Skirt</p>
+          <p class="product-description">
+            A satin mini skirt featuring an allover floral print, ruched side with self-tie
+            closure, concealed back zipper, and a flounce hem.
+          </p>
+          <button class="button w-100">Adicionar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="news-section container">
+    <div class="news-content">
+      <h3 class="news-header">Lorem ipsum</h3>
+      <p class="news-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce
+        proin mattis. Hendrerit cras ut nunc enim dictum. Mattis proin ut quis donec sed eget
+        nulla. Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus condimentum velit
+        pharetra. Amet luctus ut vulputate scelerisque.
+      </p>
+    </div>
+    <img class="news-image" src="img/card-1.png" alt="nova coleção">
+  </section>
+  <section class="newsletter-section text-center">
+    <h3 class="section-header">Recebe Nossa Newsletter</h3>
+    <form class="news-input">
+      <input type="text" name="e-mail" id="email-input" placeholder="Digite seu e-mail">
+      <button type="submit" class="button bold">Enviar</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="fi-headers container">
+      <div class="fi-dropdown">
+        <div class="fi-header bold">
+          <span>Informações</span>
+          <span>+</span>
+        </div>
+        <div class="fi-content">
+          <a href="#!" class="fi-link">Quem Somos</a>
+          <a href="#!" class="fi-link">Prazo de Envio</a>
+          <a href="#!" class="fi-link">Trocas e Devoluções</a>
+          <a href="#!" class="fi-link">Promoções e Cupons</a>
+        </div>
+      </div>
+      <div class="fi-dropdown">
+        <div class="fi-header bold">
+          <span>Minha Conta</span>
+          <span>+</span>
+        </div>
+        <div class="fi-content">
+          <a href="#!" class="fi-link">Minha Conta</a>
+          <a href="#!" class="fi-link">Meus Pedidos</a>
+          <a href="#!" class="fi-link">Cadastre-se</a>
+        </div>
+      </div>
+      <div class="fi-dropdown">
+        <div class="fi-header bold">
+          <span>Onde nos Encontrar</span>
+          <span>+</span>
+        </div>
+        <div class="fi-content">
+          <a href="#!" class="fi-link">Lojas</a>
+          <a href="#!" class="fi-link">Endereço</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black">
+      <div class="footer-logos container">
+        <div class="logos-row">
+          <a href="#!">
+            <img src="img/icon-facebook.png" alt="facebook" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-linkedin.png" alt="linkedin" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-instagram.png" alt="instagram" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-youtube.png" alt="youtube" width="32">
+          </a>
+        </div>
+        <div class="logos-row">
+          <a href="#!">
+            <img src="img/icon-visa.png" alt="visa" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-mastercad.png" alt="mastercard" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-visa.png" alt="visa" width="32">
+          </a>
+          <a href="#!">
+            <img src="img/icon-mastercad.png" alt="mastercard" width="32">
+          </a>
+        </div>
+        <div class="footer-tech">
+          <div>
+            <p>Powered by</p>
+            <img src="img/icon-vtex.png" alt="vtex">
+          </div>
+          <div>
+            <p>Developed by</p>
+            <img src="img/icon-maeztra.png" alt="maeztra">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="welcome" class="welcome">
+    <div class="welcome-content">
+      <button class="welcome-close">FECHAR</button>
+      <img class="welcome-desk-image" src="img/welcome.jpg" alt="BEM VINDO À MAEZTRA">
+      <div class="welcome-message">
+        <img src="img/icon-newsletter-mail.svg" alt="Novidades">
+        <p class="welcome-title">BEM VINDO À MAEZTRA</p>
+        <p class="welcome-description">
+          Receba em Primeira mão
+          <br>
+          <span class="bold">desconto e ofertas exclusivas</span>
+        </p>
+        <form class="welcome-form">
+          <input type="text" name="e-mail" id="modal-email-input" placeholder="Digite seu e-mail">
+          <button type="submit" class="welcome-button button">ENVIAR <span></span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
