@@ -12,8 +12,12 @@ window.onload = function() {
     }, 500);
   });
 
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.main-swiper', {
     loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
     pagination: {
       el: '.swiper-pagination',
     },
@@ -23,6 +27,19 @@ window.onload = function() {
     }
   });
 
+  const swiperConfigCards = {
+    loop: true,
+    loopedSlides: 2,
+    autoplay: {
+      disableOnInteraction: false
+    },
+    spaceBetween: 16,
+    slidesPerView: 'auto'
+  }
+  
+  const info = new Swiper('.info-cards', swiperConfigCards);
+  const brands = new Swiper('.brand-cards', swiperConfigCards);
+  
   const parents = document.querySelectorAll('.fi-header');
   parents.forEach(parent => {
     const content = parent.nextElementSibling;
