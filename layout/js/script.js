@@ -28,7 +28,7 @@ window.onload = function() {
   });
 
   const swiperConfigCards = {
-    loop: true,
+    loop: false,
     loopedSlides: 2,
     autoplay: {
       disableOnInteraction: false
@@ -39,6 +39,7 @@ window.onload = function() {
   
   const info = new Swiper('.info-cards', swiperConfigCards);
   const brands = new Swiper('.brand-cards', swiperConfigCards);
+  const shelf = new Swiper('.shelf', swiperConfigCards);
   
   const parents = document.querySelectorAll('.fi-header');
   parents.forEach(parent => {
