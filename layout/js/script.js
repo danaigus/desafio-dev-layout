@@ -12,6 +12,17 @@ window.onload = function() {
     }, 500);
   });
 
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+
   const parents = document.querySelectorAll('.fi-header');
   parents.forEach(parent => {
     const content = parent.nextElementSibling;

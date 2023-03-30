@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desafio</title>
   <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
 </head>
 <body>
   <header class="header">
@@ -61,16 +65,45 @@
     </div>
   </header>
   <section class="main-slider">
-    <div class="slider-item">
-      <div class="slider-content container">
-        <span class="slider-item-title">
-          Promoções de Outono
-        </span>
-        <span class="slider-item-text">
-          Confiras os melhores looks para combinar com você nesse Outono
-        </span>
-        <button class="button bold">Conferir</button>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="slider-item swiper-slide">
+          <div class="slider-content container">
+            <span class="slider-item-title">
+              Promoções de Outono
+            </span>
+            <span class="slider-item-text">
+              Confiras os melhores looks para combinar com você nesse Outono
+            </span>
+            <button class="button bold">Conferir</button>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-content container">
+            <span class="slider-item-title">
+              Promoções de Outono
+            </span>
+            <span class="slider-item-text">
+              Confiras os melhores looks para combinar com você nesse Outono
+            </span>
+            <button class="button bold">Conferir</button>
+          </div>
+        </div>
+        <div class="slider-item swiper-slide">
+          <div class="slider-content container">
+            <span class="slider-item-title">
+              Promoções de Outono
+            </span>
+            <span class="slider-item-text">
+              Confiras os melhores looks para combinar com você nesse Outono
+            </span>
+            <button class="button bold">Conferir</button>
+          </div>
+        </div>
       </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </section>
   <section class="info-section">
@@ -354,5 +387,6 @@
     </div>
   </div>
   <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>
