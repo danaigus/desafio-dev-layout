@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 @font-face {
   font-family: Titillium;
-  src: url(fonts/TitilliumWeb/TitilliumWeb-Regular.ttf);
+  src: url(../fonts/TitilliumWeb/TitilliumWeb-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: Titillium;
-  src: url(fonts/TitilliumWeb/TitilliumWeb-Bold.ttf);
+  src: url(../fonts/TitilliumWeb/TitilliumWeb-Bold.ttf);
   font-weight: bold;
 }
 @font-face {
   font-family: Montserrat;
-  src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: Montserrat;
-  src: url(fonts/Montserrat/Montserrat-Bold.ttf);
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
   font-weight: bold;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: 'Font Awesome';
-  src: url(fonts/fa-regular-400.ttf);
+  src: url(../fonts/fa-regular-400.ttf);
 }
 
 :root{
@@ -235,18 +235,18 @@ ul{
 
 .main-slider .swiper-button-next {
   color: #000;
-  background: url(img/icon-next.png) no-repeat center;
+  background: url(../img/icon-next.png) no-repeat center;
 }
 
 .main-slider .swiper-button-prev {
   color: #000;
-  background: url(img/icon-prev.png) no-repeat center;
+  background: url(../img/icon-prev.png) no-repeat center;
 }
 
 .slider-item {
   height: 320px;
   width: 100vw;
-  background-image: url(img/main-slider.png);
+  background-image: url(../img/main-slider.png);
   background-position: 30% center;
   background-repeat: no-repeat;
   background-size: cover;
