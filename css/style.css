@@ -946,4 +946,12 @@ ul{
   .swiper.cards {
     padding: 21px 0 20px 15px;
   }
+
+  .main-slider .swiper-button-prev {
+    left: calc(50% - 785px);
+  }
+
+  .main-slider .swiper-button-next {
+    right: calc(50% - 785px);
+  }
 }
